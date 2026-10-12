@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { ChevronDown, Play } from "lucide-react"
-import heroVideo from "../assets/hero-davido.mp4"
+import heroVideo from "../assets/hero-video.mp4"
 import heroImg from "../assets/hero-poster.jpg"
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
             </video>
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/75" />
+            <div className="absolute inset-0 bg-black/50" />
 
             {/* Glow */}
             <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] md:h-[700px] md:w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky-400/10 blur-[150px]" />
@@ -70,10 +70,10 @@ export default function Hero() {
                             Explore Legacy
                         </button>
 
-                        <button className="flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 md:px-8 md:py-4 text-white backdrop-blur-md transition hover:bg-white/10">
+                        <a href="https://youtu.be/Sm5skxOAj3M?si=9kpMsqKdjniyTm94" className="flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 md:px-8 md:py-4 text-white backdrop-blur-md transition hover:bg-white/10">
                             <Play size={18} />
                             Watch Highlights
-                        </button>
+                        </a>
                     </motion.div>
 
                     {/* Stats */}

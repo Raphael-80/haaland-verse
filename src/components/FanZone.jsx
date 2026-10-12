@@ -198,7 +198,8 @@ const FanZone = () => {
             moments with the community.
           </p>
 
-          <button
+          <a
+          href="https://discord.gg/AgTpf7Ryb"
             className="
               mt-8
               rounded-full
@@ -218,7 +219,7 @@ const FanZone = () => {
             "
           >
             Join The Community
-          </button>
+          </a>
         </motion.div>
 
       </div>
